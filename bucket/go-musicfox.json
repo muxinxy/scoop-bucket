@@ -15,6 +15,12 @@
     "post_install": [
         "Write-Host '好用记得给go-musicfox一个star✨哦~'"
     ],
+    "env_set":{
+        "MUSICFOX_ROOT": "$dir\\data"
+    },
+    "persist": [
+        "data"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
