@@ -3,7 +3,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v3.7.6/go-musicfox_3.7.6_windows_amd64.zip",
-            "bin": "go-musicfox_3.7.5_windows_amd64/musicfox.exe",
             "hash": "e6b0a45c656104421879927667357258c8c53f06633a3ca4f97effefc375ed47"
         }
     },
