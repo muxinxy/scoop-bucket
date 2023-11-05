@@ -14,9 +14,10 @@
     "shortcuts": [
         [
             "electerm.exe",
-            "electerm"
+            "Electerm"
         ]
     ],
+    "persist": "electerm",
     "checkver": {
         "github": "https://github.com/electerm/electerm"
     },
