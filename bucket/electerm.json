@@ -12,9 +12,9 @@
     },
     "pre_install": [
             "# copy config from non-portable version",
-            "if (!(Test-Path \"$dir\\electerm\\*\") -and (Test-Path \"$env:Appdata\\Roaming\\electerm\")) {",
+            "if (!(Test-Path \"$persist_dir\\electerm\") -and (Test-Path \"$env:Appdata\\electerm\")) {",
             "    if (!(Test-Path \"$dir\\electerm\")) { New-Item \"$dir\\electerm\" -ItemType Directory | Out-Null }",
-            "    Copy-Item \"$env:Appdata\\Roaming\\electerm\\*\" \"$dir\\electerm\\\" -Recurse -Force",
+            "    Copy-Item \"$env:Appdata\\electerm\\*\" \"$dir\\electerm\\\" -Recurse -Force",
             "}"
     ],
     "bin": "electerm.exe",
