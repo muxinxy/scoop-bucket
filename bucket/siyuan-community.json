@@ -1,12 +1,12 @@
 {
-    "version": "3.0.9",
+    "version": "3.0.13",
     "description": "SiYuan is a local-first personal knowledge management system, supports fine-grained block-level reference, and Markdown WYSIWYG.",
     "homepage": "https://b3log.org/siyuan",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siyuan-community/siyuan/releases/download/v3.0.9/siyuan-CE-v3.0.9-win.exe#/dl.7z",
-            "hash": "04cf485efa1c73a7e64f0ae78e002c510a4c2ef97542ea6016f3365e5944ed7b",
+            "url": "https://github.com/siyuan-community/siyuan/releases/download/v3.0.13/siyuan-CE-v3.0.13-win.exe#/dl.7z",
+            "hash": "2ab7e6ffc4380fe9f4745d9012fb248f6f5db616bc026f9ec8ed432ed5a30c75",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
