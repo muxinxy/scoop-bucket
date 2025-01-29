@@ -14,14 +14,12 @@ To add this bucket, run `scoop bucket add <bucketname> https://github.com/<usern
 ### For example
 
 ```bash
-scoop bucket add muxinxy https://github.com/muxinxy/scoop-bucket
+scoop bucket add mxy https://github.com/muxinxy/scoop-bucket
 ```
 
 ```bash
-scoop install muxinxy/go-muscifox
+scoop install mxy/go-muscifox
 ```
-
-
 
 How do I contribute new manifests?
 ----------------------------------
