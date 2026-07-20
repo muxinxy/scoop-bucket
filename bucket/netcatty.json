@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.70/Netcatty-1.1.70-win-x64.zip",
-            "hash": "f5db260455dad0b204caec239a4ebf63690ad2416a4754353be4c6572d438a33",
-            "extract_dir": "Netcatty-1.1.70-win-x64"
+            "hash": "f5db260455dad0b204caec239a4ebf63690ad2416a4754353be4c6572d438a33"
         }
     },
     "bin": "Netcatty.exe",
@@ -17,8 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TermoraDev/termora/releases/download/v$version/Netcatty-$version-win-x64.zip",
-                "extract_dir": "Netcatty-$version-win-x64"
+                "url": "https://github.com/TermoraDev/termora/releases/download/v$version/Netcatty-$version-win-x64.zip"
             }
         }
     }
